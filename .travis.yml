@@ -4,4 +4,4 @@ rvm:
  - jruby
 script:
  - bundle
- - ./lint-all-articles.sh
+ - mdl ./ 
