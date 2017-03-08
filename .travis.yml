@@ -1,0 +1,4 @@
+language: ruby
+install: gem install mdl
+script:
+  - ./lint-all-articles.sh 
