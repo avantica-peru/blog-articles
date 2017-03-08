@@ -1,7 +1,4 @@
 language: ruby
-rvm:
- - 2.2
- - jruby
+install: gem install mdl
 script:
- - bundle
- - mdl ./ 
+  - ./lint-all-articles.sh 
